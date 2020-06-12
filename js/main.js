@@ -56,8 +56,9 @@ liveontimeemitnoevilsexesredderrotavatorpullupifipullupabbadeleveledrelevelerdet
 
     console.log(`${letters} is the longest palin with ${num} letters.`);
 */
-
-    let str = 'liveontimeemitnoevilsexesredderrotavatorpullupifipullupabbadeleveledrelevelerdetartratedamanaplanacanalpanamasumsarenotsetasatestonerasmus';
+    
+    //let str = 'liveontimeemitnoevilsexesredderrotavatorpullupifipullupabbadeleveledrelevelerdetartratedamanaplanacanalpanamasumsarenotsetasatestonerasmus';
+    let str=document.getElementById('test').value;
     let strArr = str.split('');
     let letters = '';
     let num = 1;
@@ -118,6 +119,7 @@ liveontimeemitnoevilsexesredderrotavatorpullupifipullupabbadeleveledrelevelerdet
             }
         }
     })
-    console.log(`${letters} is the longest palin with ${num} letters.`);
+    //console.log(`${letters} is the longest palin with ${num} letters.`);
+    document.getElementById('result').innerHTML = `${letters} is the longest palin with ${num} letters.`;
 
 })
