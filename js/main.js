@@ -120,6 +120,6 @@ liveontimeemitnoevilsexesredderrotavatorpullupifipullupabbadeleveledrelevelerdet
         }
     })
     //console.log(`${letters} is the longest palin with ${num} letters.`);
-    document.getElementById('result').innerHTML = `${letters} is the longest palin with ${num} letters.`;
+    document.getElementById('result').innerHTML = (num>2) ? `${letters} is the longest Palindrome with ${num} letters.` : 'There is no Palindrome in this text';
 
 })
